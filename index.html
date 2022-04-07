@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator app in tailwind css with out funtionalilty in javascript </title>
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/OIP.yWNibBRepmC6fO7mZnicCgHaHa?w=155&h=180&c=7&r=0&o=5&pid=1.7">
+    <link rel="stylesheet" href="tailwind.min.css">
+</head>
+<body>
+    <div class="min-h-screen flex bg-gray-700 items-center justify-center">
+        <div class="bg-gray-900 rounded-lg shadow-lg">
+            <!-- this where form going -->
+            <form class="border-b-2 border-gray-900">
+                <input type="number" placeholder="0" class="p-8 outline none bg-transparent bg-gray-800  border border-gray-700  rounded-t-lg  text-2xl font-mono text-white text-right">
+                <div class="p-4 bg-gray-900 text-white grid grid-cols-4 gap-4 text-xl ">
+                    <button class="col-span-3 bg-blue-500 hover:bg-blue-400 rounded-full ">C</button>
+                    <button class="bg-purple-500 hover:bg-purple-400 p-4 rounded-full">&divide;</button>
+
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">1</button>
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">2</button>
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">3</button>
+                     <button class="bg-purple-500 hover:bg-purple-400 p-4 rounded-full">&times;</button>
+                     <!-- buttons 4-6 and operation = -->
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">4</button>
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">5</button>
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">6</button>
+                     <button class="bg-purple-500 hover:bg-purple-400 p-4 rounded-full">&minus;</button>
+                     <!-- button 7-9 -->
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">7</button>
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">8</button>
+                     <button class="bg-gray-500 hover:bg-gray-400 p-4 rounded-full">9</button>
+                     <button class="bg-purple-500 hover:bg-purple-400 p-4 rounded-full">&plus;</button>
+                     <button class="bg-blue-500 hover:bg-blue-400 p-4 rounded-full">0</button>
+                     <button class="col-span-3 bg-purple-500 hover:bg-purple-400 rounded-full ">&equals;</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
